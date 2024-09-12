@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--header-->
+  <header class="main-header">
+    <nav class="navbar header-nav navbar-expand-lg">
+      <div class="container">
+        <!--Brand Name/Logo-->
+        <a href="#" class="navbar-brand">
+          <h4 class="mb-0">Amegh <span class="text-primary">VB</span></h4>
+        </a>
+
+        <!--Menu-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+          <ul class="navbar-nav mx-auto">
+            <li>
+              <a href="#home" class="nav-link" data-scroll-nav="0">Home</a>
+            </li>
+            
+            <li>
+              <a href="#about" class="nav-link" data-scroll-nav="1">About Me</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link" data-scroll-nav="2">Services</a>
+            </li>
+
+            <li>
+              <a href="#skills" class="nav-link" data-scroll-nav="3">Skills</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="nav-link" data-scroll-nav="4">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#education" class="nav-link" data-scroll-nav="5">Education</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Button-->
+        <div class="ms-auto d-none d-lg-block">
+          <a class="colored-btn" href="#contact" data-scroll-nav="6">Contact Now</a>
+        </div>
+
+        <!--Mobile Menu Toggle-->
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!--Main-->
+  <main>
+    <!--Home Section-->
+    <section id="home" class="home-section bg-gray" data-scroll-index="0">
+      <div class="container">
+        <div class="anim-elements">
+          <div class="anim-element"><i class="bx bxl-html5"></i></div>
+          <div class="anim-element"><i class="bx bxl-css3"></i></div>
+          <div class="anim-element"><i class="bx bxl-react"></i></div>
+          <div class="anim-element"><i class="bx bxl-android"></i></div>
+          <div class="anim-element"><i class="bx bxl-apple"></i></div>
+        </div>
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="home-intro text-center text-lg-start">
+              <h6>Hi,my name is Amegh.</h6>
+              <h1>I'm a <span id="type-it"></span></h1>
+              <p>Based in Kochi, Kerala.</p>
+              <a href="#about" class="colored-btn mt-1">
+                About Me
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <div class="home-image text-center">
+              <img src="images/amegh-pic-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="section" data-scroll-index="1">
+      <div class="container">
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-6 text-center">
+            <img src="images/amegh-pic-2.jpg" alt="">
+          </div>
+          <div class="col-lg-6 ps-lg-5"></div>
+            <div class="about-text">
+              <h3 class="h1 mb-3 text-dark fw-semibold">I'm a Game Developer who is currently upskilling.</h3>
+              <p>I have completed my BTech in Mechanical Engineering (Automobile) in 2024 and I'm currently upskilling myself to transition into the Game Development industry. I love playing video games and have been playing them since the age of 6.</p>
+              <div class="row pt-2">
+                <div class="col-6 col-md-4">
+                  <h5 class="text-primary fw-semibold fs-4 mb-0">1</h5>
+                  <span class="text-dark">Project Completed</span>
+                </div>
+                <div class="col-6 col-md-4">
+                  <h5 class="text-primary fw-semibold fs-4 mb-0">0</h5>
+                  <span class="text-dark">Clients</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Services Section-->
+    <section id="services" class="section bg-gray" style="background-image:url(); background-repeat: no-repeat; background-size: cover;" data-scroll-index="2">
+      <div class="container">
+        <div class="section-heading">
+          <h3>My Services</h3>
+        </div>
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="feature-box bg-1">
+              <div class="icon"><i class="bx bx-brush"></i></div>
+              <div class="content">
+                <h5>Web Design</h5>
+                <p>I specialize in creating visually engaging, user-centered websites that seamlessly combine aesthetic appeal with functional design. With a focus on intuitive navigation and responsive layouts, I ensure that every website delivers a smooth and enjoyable experience across all devices.My approach is rooted in understanding the unique goals of each project and translating them into digital solutions that drive engagement and growth.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-box bg-2">
+              <div class="icon"><i class="bx bx-desktop"></i></div>
+              <div class="content">
+                <h5>Web Development</h5>
+                <p>As a web developer, I focus on building fast, secure, and scalable websites that offer seamless user experiences across all devices. Whether you're looking for a custom website, an e-commerce platform, or a complex web application, I bring both front-end and back-end expertise to deliver high-quality, functional solutions that align with your business goals.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-box bg-3">
+              <div class="icon"><i class="bx bxl-youtube"></i></div>
+              <div class="content">
+                <h5>YouTube Marketing</h5>
+                <p>I specialize in helping brands and creators grow their presence on YouTube through strategic marketing, content optimization, and data-driven campaigns. Whether you're looking to increase subscribers, boost engagement, or drive conversions, I provide tailored solutions that maximize your channel’s potential and reach your target audience effectively.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-box bg-4">
+              <div class="icon"><i class="bx bx-cube"></i></div>
+              <div class="content">
+                <h5>Game Development</h5>
+                <p>I bring creativity and technical expertise together to create immersive and engaging gaming experiences. From concept to launch, I provide end-to-end game development services that cater to both indie developers and larger studios. Whether you're looking to develop a mobile game, a 2D platformer, or a fully immersive 3D world, I can help turn your ideas into a reality.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills Section-->
+    <section id="skills" class="section" data-scroll-index="3">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-6">
+            <div class="section-heading text-start">
+              <h3>My Skills</h3>
+            </div>
+            <div class="skill-box">
+              <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-6">
+                  <div class="feature-box feature-box-small bg-2">
+                    <div class="icon">
+                      <i class="bx bxl-html5"></i>
+                    </div>
+                    <h6>HTML</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-6">
+                  <div class="feature-box feature-box-small bg-3">
+                    <div class="icon">
+                      <i class="bx bxl-css3"></i>
+                    </div>
+                    <h6>CSS</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-6">
+                  <div class="feature-box feature-box-small bg-4">
+                    <div class="icon">
+                      <i class="bx bxl-javascript"></i>
+                    </div>
+                    <h6>JavaScript</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-6">
+                  <div class="feature-box feature-box-small bg-1">
+                    <div class="icon">
+                      <i class="bx bxl-bootstrap"></i>
+                    </div>
+                    <h6>Bootstrap</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="images/Untitled_design__3_-removebg-preview.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!--Work Section-->
+    <section id="portfolio" class="section bg-gray" data-scroll-index="4">
+      <div class="container">
+        <div class="section-heading">
+          <h3>Latest Projects</h3>
+        </div>
+        <div class="portfolio-box">
+          <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3  justify-content-around align-items-center">
+            <div class="col-md-6 col-lg-5">
+              <div class="portfolio-img">
+                <img src="images/youtube-clone-ss.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5">
+              <div class="portfolio-text">
+                <span>Web Design</span>
+                <h4>YouTube Clone</h4>
+                <p>A static YouTube Clone website using HTML and CSS as a part of learning HTML and CSS.</p>
+                <a href="#" class="colored-btn mt-1">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3  justify-content-around align-items-center flex-row-reverse">
+            <div class="col-md-6 col-lg-5">
+              <div class="portfolio-img">
+                <img src="images/uber-clone-ss.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5">
+              <div class="portfolio-text">
+                <span>Web Design</span>
+                <h4>Uber Clone</h4>
+                <p>A static Uber Clone website using HTML and CSS as a part of learning HTML and CSS.</p>
+                <a href="#" class="colored-btn mt-1">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3  justify-content-around align-items-center">
+            <div class="col-md-6 col-lg-5">
+              <div class="portfolio-img">
+                <img src="images/amazon-clone-ss.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5">
+              <div class="portfolio-text">
+                <span>Web Design</span>
+                <h4>Amazon Clone</h4>
+                <p>A responsive Amazon Clone website using HTML, CSS, JavaScript and Bootstrap as a part of learning JavaScript and Bootstrap.</p>
+                <a href="#" class="colored-btn mt-1">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Education Section-->
+    <section id="education" class="section" data-scroll-index="5">
+      <div class="container">
+        <div class="section-heading">
+          <h3>Education</h3>
+        </div>
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="feature-box bg-1">
+              <div class="icon"><i class="bx bx-book"></i></div>
+              <div class="content">
+                <h5>High School (2018-2020)</h5>
+                <p>I have completed my schooling in Greets Public School, Kaloor, which is where I've completed high school. I took the Bio Maths stream and graduated with 91.2% marks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-box bg-2">
+              <div class="icon"><i class="bx bx-car"></i></div>
+              <div class="content">
+                <h5>Bachelor's Degree (2020-2024)</h5>
+                <p>I have completed my BTech in Mechanical Engineering (Automobile) in Amal Jyothi College of Engineering, Kanjirapally with First Class.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="section bg-dark" data-scroll-index="6">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-6">
+            <div class="contact-form">
+              <h2 class="text-dark">Get in touch</h2>
+              <p class="lead">Get in touch with me.</p>
+              <div id="error"></div>
+              <form id="form" action="https://formsubmit.co/adc76a1bd9786a2a604cc3e9cbb4ba32" method="POST">
+                <div class="row gy-4 gx-3">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Name</label>
+                      <input id="name" type="text" class="form-control" name="name">
+                      <span style="color:red" id="name_error"></span>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Email</label>
+                      <input id="email" type="email" class="form-control" name="email">
+                      <span style="color:red" id="email_error"></span>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Subject</label>
+                      <input id="subject" type="text" class="form-control" name="subject">
+                      <span style="color:red" id="subject_error"></span>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Message</label>
+                      <textarea id="message" name="message" rows="5" class="form-control"></textarea>
+                      <span style="color:red" id="message_error"></span>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="colored-btn" type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5 ms-auto col-xl-4">
+            <div class="pb-5 d-none d-md-block">
+              <img src="" class="w-100" alt="">
+            </div>
+            <ul class="contact-infos">
+              <li>
+                <div class="icon bg-1">
+                  <i class="bx bx-phone"></i>
+                </div>
+                <div class="col ps-3">
+                  <h5>Phone</h5>
+                  <p>+91 907 215 4632</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon bg-2">
+                  <i class="bx bx-envelope"></i>
+                </div>
+                <div class="col ps-3">
+                  <h5>Mail</h5>
+                  <p>amegh.baiju@gmail.com</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon bg-3">
+                  <i class="bx bx-map"></i>
+                </div>
+                <div class="col ps-3">
+                  <h5>Address</h5>
+                  <p>Velathuparambil, Ponnarimangalam, Mulavukad P.O., Ernakulam, Kerala, India </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 py-2">
+          <div class="nav justify-content-center justify-content-md-start">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 py-2 text-center text-md-end">
+          <p class="m-0">&copy; 2024 Copyright all rights reserved | Developed by <a href="#">Amegh V B</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script src="script.js"></script>
+  <script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="scrollIt.js" type="text/javascript"></script>
+  <script defer src="script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
